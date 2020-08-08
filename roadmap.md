@@ -13,6 +13,17 @@
   - If we want to keep this file, we should rename it and movie it.
 - Combine the functionalities of `Steel-Drum-project.ipynb` and `sampler.ipynb` into the `metallurgy.py` file.
   - This is a big-ish project. Determine what we need, what to keep, what to toss.
+  
+## From meeting with George
+- Combine files into metallurgy.ipynb
+- Test and evaluate different pitch summary methods:
+  - Value at onset
+  - Average/median for 5ms from onset
+  - Average/median from one onset to next onset
+- Make more Audio test examples
+  - Make MIDI versions
+  - Make function to convert MIDI file to numpy array version for comparison
+- Longer term project: evaluate pitch detection algorithms on the steelpan
     
 ## Future plans:
 - Machine learning based pitch detection system.

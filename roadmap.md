@@ -7,7 +7,7 @@
 - Make more Audio test examples
   - Make MIDI versions
   - Make function to convert MIDI file to numpy array version for comparison
-- Pitch detection algorithm comparison
+- Pitch detection algorithm comparison (makes each notebook file)
 - Write report (Write about each project, background: onset detection, pitch detection and Steelpan acoustics)
 - Longer term project: evaluate pitch detection algorithms on the steelpan
 

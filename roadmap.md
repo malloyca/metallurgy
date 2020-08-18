@@ -48,7 +48,6 @@
 
 ## Future plans:
 - Machine learning based pitch detection system.
-  - The pitch detection algorithms included in Essentia are failing on the test input (which is Twinkle Twinkle Little Star).
-  - There is clearly room for improvement in this area.
+  - Do a comprehensive study comparing different available pitch detection algorithms (from Essentia, Librosa, and more) for use on steelpans.
   - We should devise an ML and/or deep learning based steelpan pitch detection system to test against the Essentia (and/or Librosa?) algorithms.
 - Do other awesome work.

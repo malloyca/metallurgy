@@ -17,6 +17,11 @@
 - Problem addressed (Failures we learned from)
   - Onset detection algorithm
     - Tested different versions, HFC gave false positives (add figure)
+  - We were using the wrong pitch detection algorithm. Originally used `PredominantPitchMelodia`, gave wrong results.
+    - `PitchMelodia` gave better results.
+    - Also tried `PitchYin` and `PitchYinFFT`, but got worse results.
+    - These were informal comparisons.
+    - This is why a more quantitative, methodical study comparing different pitch detection algorithms on the steelpan would be helpful.
   - Next pitch value gave terrible results -> set it up for onset-to-onset avg/median
 - Testing -> Rename as 'Results'
   - Make more test files.
